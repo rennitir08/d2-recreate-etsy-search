@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+body {
+    background-color: #f7f7f6;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+nav > li > a {
+    position: relative;
+    display: block;
+    padding: 5px 15px;
+}
+
+.first-nav {
+    background: white;
+    padding: 12px;
+}
+.second-nav {
+     margin: -21px 0px 20px 0px;
+     background: white;
+}
+.categories {
+    background: white;
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.03);
+    padding: 10px 40px 10px 15px;
+    margin: 0px 0px 0px 30px;
+}
+.categories span {
+    padding: 5px 0px 0px 0px;
+}
+.card {
+    max-width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 0px 0px 0px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+    background: #ffffff;
+    margin: 10px;
+}
+.card-caption {
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    font-size: 11px;
+}
+.card-author {
+    padding:0px 0px 0px 10px;
+    font-size: 11px;
+}
+.card-price {
+    text-align: right;
+    padding:0px 30px 0px 0px;
+    font-size: 11px;
+}
+
+.refine {
+   padding:0px 0px 10px 30px;
+}
+.board-games {
+   margin:0px 0px 10px 30px;
+}
