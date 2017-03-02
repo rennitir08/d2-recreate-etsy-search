@@ -18,27 +18,26 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <a class="navbar-brand" href="#"><img src="Etsy_logo.png" width="40px"/></a>
+          <a class="navbar-brand logo" href="#"><img src="Etsy_logo.png" alt="Etsy"/></a>
         </ul>
         <div class="col-lg-4">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search for...">
             <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Search</button>
+        <button id="search" class="btn btn-default" type="button" onkeypress="keyPress()">Search</button>
       </span>
           </div>
         </div>
         <ul class="nav navbar-nav navbar-right col-lg-4">
-          <li><a href="#">Sell on Etsy</a></li>
+          <li class="sell-on-etsy"><a href="#">Sell on Etsy</a></li>
           <li><a href="#">Register</a></li>
-          <li><button class="btn btn-default" type="submit">Sign in </button></li>
+          <li><button class="btn btn-default sign-in" type="submit">Sign in </button></li>
           <li><span class="glyphicon glyphicon-shopping-cart">Cart</span></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
     <!-- /.container-fluid -->
   </nav>
-</div>
   <!--second navbar-->
   <ul class="second-nav nav nav-pills">
     <li role="presentation"><a href="#">Clothing &amp; Accessories</a></li>
@@ -52,6 +51,7 @@
   </ul>
   <!--row of text-->
   <div class="refine">Show results for:</div>
+  <div class="sort pull-right">Sort By: <a href="#">Relevancy</a></div>
   <!--side navbar all categories-->
   <div class="row">
     <div class="col-sm-3">
@@ -79,11 +79,10 @@
             <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
               <a href="#">Anywhere</a>
           </label>
-          <label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked>
              <a href="#">United States</a>
           </label>
           <label>
@@ -100,14 +99,14 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked>
               <a href="#">Handmade</a>
           </label>
           <label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option1" checked>
               <a href="#">Vintage</a>
           </label>
         </div>
@@ -115,46 +114,39 @@
         <li>Price ($)</li>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios4" value="option1" checked>
               <a href="#">Any Price</a>
           </label>
-          <label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios5" value="option1" checked>
               <a href="#">Under $25</a>
           </label>
           <label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios6" value="option1" checked>
               <a href="#">$25 to $50</a>
           </label>
           <label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios7" value="option1" checked>
               <a href="#">$50 to $100</a>
           </label>
           <label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            <input type="radio" name="optionsRadios" id="optionsRadios8" value="option1" checked>
               <a href="#">Over $100</a>
           </label>
         </div>
         <input type="text" class="form-control" placeholder="Low">
         <hr/>
-        <li role="presentation">Filter by color</li>
-        
-
-
-
-
       </ul>
       </div>
       <div class="board-games">Did you mean the shop <a href="#">boardgames</a>?</div>

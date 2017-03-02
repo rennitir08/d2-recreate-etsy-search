@@ -13,7 +13,10 @@ body {
     font-size: 18px;
     line-height: 20px;
 }
-
+.logo {
+ max-width: 103px;
+ margin: -23px -4px 0px -16px;
+}
 nav > li > a {
     position: relative;
     display: block;
@@ -40,6 +43,7 @@ nav > li > a {
 }
 .card {
     max-width: 300px;
+    min-height:300px;
     border: 1px solid lightgray;
     border-radius: 3px;
     padding: 10px 0px 0px 0px;
@@ -67,4 +71,16 @@ nav > li > a {
 }
 .board-games {
    margin:0px 0px 10px 30px;
+}
+.sort {
+     margin:5px 130px 0px 0px;
+}
+.sign-in {
+    margin:10px 10px 0px 0px;
+}
+.glyphicon-shopping-cart {
+    margin:19px 19px 0px 2px;
+}
+.sell-on-etsy {
+    margin:0px -19px 0px 0px;
 }
